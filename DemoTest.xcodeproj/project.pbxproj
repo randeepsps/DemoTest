@@ -14,6 +14,10 @@
 		32F943011B737B79002A27BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F943001B737B79002A27BB /* Images.xcassets */; };
 		32F943041B737B79002A27BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F943021B737B79002A27BB /* LaunchScreen.xib */; };
 		32F943101B737B79002A27BB /* DemoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F9430F1B737B79002A27BB /* DemoTestTests.m */; };
+		32F9431C1B737BB2002A27BB /* FirstviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F9431A1B737BB2002A27BB /* FirstviewViewController.m */; };
+		32F9431D1B737BB2002A27BB /* FirstviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F9431B1B737BB2002A27BB /* FirstviewViewController.xib */; };
+		32F943211B737F6D002A27BB /* SecondtableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F9431F1B737F6D002A27BB /* SecondtableViewController.m */; };
+		32F943221B737F6D002A27BB /* SecondtableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F943201B737F6D002A27BB /* SecondtableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		32F943091B737B79002A27BB /* DemoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F9430E1B737B79002A27BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F9430F1B737B79002A27BB /* DemoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTestTests.m; sourceTree = "<group>"; };
+		32F943191B737BB2002A27BB /* FirstviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstviewViewController.h; sourceTree = "<group>"; };
+		32F9431A1B737BB2002A27BB /* FirstviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstviewViewController.m; sourceTree = "<group>"; };
+		32F9431B1B737BB2002A27BB /* FirstviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstviewViewController.xib; sourceTree = "<group>"; };
+		32F9431E1B737F6D002A27BB /* SecondtableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondtableViewController.h; sourceTree = "<group>"; };
+		32F9431F1B737F6D002A27BB /* SecondtableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondtableViewController.m; sourceTree = "<group>"; };
+		32F943201B737F6D002A27BB /* SecondtableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondtableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,12 @@
 		32F942E71B737B79002A27BB = {
 			isa = PBXGroup;
 			children = (
+				32F9431E1B737F6D002A27BB /* SecondtableViewController.h */,
+				32F9431F1B737F6D002A27BB /* SecondtableViewController.m */,
+				32F943201B737F6D002A27BB /* SecondtableViewController.xib */,
+				32F943191B737BB2002A27BB /* FirstviewViewController.h */,
+				32F9431A1B737BB2002A27BB /* FirstviewViewController.m */,
+				32F9431B1B737BB2002A27BB /* FirstviewViewController.xib */,
 				32F942F21B737B79002A27BB /* DemoTest */,
 				32F9430C1B737B79002A27BB /* DemoTestTests */,
 				32F942F11B737B79002A27BB /* Products */,
@@ -200,7 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F942FF1B737B79002A27BB /* Main.storyboard in Resources */,
+				32F943221B737F6D002A27BB /* SecondtableViewController.xib in Resources */,
 				32F943041B737B79002A27BB /* LaunchScreen.xib in Resources */,
+				32F9431D1B737BB2002A27BB /* FirstviewViewController.xib in Resources */,
 				32F943011B737B79002A27BB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F942FC1B737B79002A27BB /* ViewController.m in Sources */,
+				32F943211B737F6D002A27BB /* SecondtableViewController.m in Sources */,
 				32F942F91B737B79002A27BB /* AppDelegate.m in Sources */,
+				32F9431C1B737BB2002A27BB /* FirstviewViewController.m in Sources */,
 				32F942F61B737B79002A27BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    FirstviewViewController *homeViewController = [[FirstviewViewController alloc] init];
+    self.window.rootViewController = homeViewController;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
