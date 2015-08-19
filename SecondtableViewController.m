@@ -27,13 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
 //#params tableview delegate
-
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
-
     switch (indexPath.section) {
         case 0:{
             //Coupon
